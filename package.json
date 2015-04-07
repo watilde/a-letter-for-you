@@ -1,0 +1,29 @@
+{
+  "name": "a-letter-for-you",
+  "version": "0.0.1",
+  "description": "Send short encrypted message by GitHub ID",
+  "main": "index.js",
+  "bin": {
+    "a-letter-for-you": "./a-letter-for-you.js"
+  },
+  "dependencies": {
+    "commander": "^2.7.1",
+    "openssl-wrapper": "^0.2.1",
+    "temp-write": "^1.1.0",
+    "ursa": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/a-letter-for-you.git"
+  },
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/a-letter-for-you/issues"
+  },
+  "homepage": "https://github.com/watilde/a-letter-for-you"
+}
