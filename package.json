@@ -1,6 +1,6 @@
 {
   "name": "a-letter-for-you",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Send a short encrypted message by GitHub ID",
   "main": "index.js",
   "bin": {
