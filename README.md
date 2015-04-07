@@ -14,5 +14,17 @@ Options:
   -o, --out [value]       Out your letter to a file
 ```
 
+## Install
+```
+$ npm install -g a-letter-for-you
+$ a-letter-for-you --version
+0.3.0
+```
+
+## Decrypt a message
+```
+$ openssl rsautl -decrypt -oaep -inkey <Your Secret Key> -in <Attachment>
+```
+
 ## based on
 https://github.com/moznion/naisho
