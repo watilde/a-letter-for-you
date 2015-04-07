@@ -3,7 +3,7 @@ Send a short encrypted message by GitHub ID
 
 ## Usage
 ```
-Usage: a-letter-for-you [options]
+Usage: a-letter-for-you -u <Target GitHub ID> -m <Message> [-o letter.txt]
 
 Options:
 
@@ -23,7 +23,7 @@ $ a-letter-for-you --version
 
 ## Decrypt a message
 ```
-$ openssl rsautl -decrypt -inkey <Your Secret Key> -in <Message File>
+$ gopenssl rsautl -decrypt -inkey <Your Secret Key> -in <Message File>
 ```
 
 ## based on
