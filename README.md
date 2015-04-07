@@ -23,7 +23,7 @@ $ a-letter-for-you --version
 
 ## Decrypt a message
 ```
-$ openssl rsautl -decrypt -oaep -inkey <Your Secret Key> -in <Attachment>
+$ openssl rsautl -decrypt -inkey <Your Secret Key> -in <Message File>
 ```
 
 ## based on
