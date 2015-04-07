@@ -9,9 +9,9 @@ Options:
 
   -h, --help              output usage information
   -V, --version           output the version number
-  -u, --username [value]  Target GitHub ID
-  -m, --message [value]   Write your message
-  -o, --out [value]       Out your letter to a file
+  -u, --username [value]  target GitHub ID
+  -m, --message [value]   write your message
+  -o, --out [value]       output your letter to a file
 ```
 
 ## Install

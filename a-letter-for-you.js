@@ -16,9 +16,9 @@ updateNotifier({
 program
   .version(pkg.version)
   .usage('-u <Target GitHub ID> -m <Message> [-o letter.txt]')
-  .option('-u, --username [value]', 'Target GitHub ID')
-  .option('-m, --message [value]', 'Write your message')
-  .option('-o, --out [value]', 'Out your letter to a file')
+  .option('-u, --username [value]', 'target GitHub ID')
+  .option('-m, --message [value]', 'write your message')
+  .option('-o, --out [value]', 'output your letter to a file')
   .parse(process.argv);
 
 if (!program.username && !program.message) return program.help();
@@ -26,7 +26,7 @@ if (!program.username) return console.error('Missing required option "--username
 if (!program.message) return console.error('Missing required option "--message"');
 
 var username = program.username;
-var message = program.message + '\n\nwrite by a-letter-for-you: https://www.npmjs.com/package/a-letter-for-you';
+var message = program.message + '\n\nwriteg by a-letter-for-you: https://www.npmjs.com/package/a-letter-for-you';
 var out = program.out;
 var keyFile;
 var messageFile;
