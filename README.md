@@ -1,5 +1,5 @@
 # a-letter-for-you
-Send short encrypted message by GitHub ID
+Send a short encrypted message by GitHub ID
 
 ## Usage
 ```
