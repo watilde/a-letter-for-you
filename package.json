@@ -10,6 +10,7 @@
     "commander": "^2.7.1",
     "openssl-wrapper": "^0.2.1",
     "temp-write": "^1.1.0",
+    "update-notifier": "^0.3.1",
     "ursa": "^0.8.4"
   },
   "devDependencies": {},

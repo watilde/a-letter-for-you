@@ -5,7 +5,13 @@ var openssl = require('openssl-wrapper');
 var program = require('commander');
 var tmpWrite = require('temp-write');
 var ursa = require('ursa');
+var updateNotifier = require("update-notifier");
 var pkg = require('./package.json');
+
+updateNotifier({
+  packageName : pkg.name,
+  packageVersion : pkg.version
+}).notify();
 
 program
   .version(pkg.version)
