@@ -26,7 +26,7 @@ if (!program.username) return console.error('Missing required option "--username
 if (!program.message) return console.error('Missing required option "--message"');
 
 var username = program.username;
-var message = program.message + '\n\nwriteg by a-letter-for-you: https://www.npmjs.com/package/a-letter-for-you';
+var message = program.message + '\n\nwrite by a-letter-for-you: https://www.npmjs.com/package/a-letter-for-you';
 var out = program.out;
 var keyFile;
 var messageFile;
