@@ -63,7 +63,7 @@ function fetchPubKey(userID, cb) {
       body += chunk;
     });
     res.on('end', function () {
-      keyFile = tmpWrite.sync(body.split('\n')[1]);
+      keyFile = tmpWrite.sync(body.split('\n')[0]);
       cb(keyFile);
     });
   });
