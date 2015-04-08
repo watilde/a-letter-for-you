@@ -23,7 +23,7 @@ $ a-letter-for-you --version
 
 ## Decrypt a message
 ```
-$ gopenssl rsautl -decrypt -inkey <Your Secret Key> -in <Message File>
+$ openssl rsautl -decrypt -inkey <Your Secret Key> -in <Message File>
 ```
 
 ## based on
